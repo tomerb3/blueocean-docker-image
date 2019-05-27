@@ -1,3 +1,3 @@
 node {
-  sh "sudo docker -t docker.cloudbees.com/cloudbees/blueocean ."
+  sh "docker -t docker.cloudbees.com/cloudbees/blueocean ."
 }
